@@ -10,3 +10,7 @@ formulaire.addEventListener('submit', function(event) {
      document.getElementById('resultat').classList.remove('cache');
 
 })
+document.getElementById('recommencer').addEventListener('click', function() {
+    document.getElementById('invocation').classList.remove('cache');
+    document.getElementById('resultat').classList.add('cache');
+})
